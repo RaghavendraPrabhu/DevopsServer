@@ -6,6 +6,7 @@ From tomcat:8-jre8
 
 # Copy configurations
 COPY tomcat-users.xml /usr/local/tomcat/conf/
+COPY server.xml /usr/local/tomcat/conf/
 COPY context.xml /usr/local/tomcat/webapps/manager/META-INF/
 
 # Copy to images tomcat path
