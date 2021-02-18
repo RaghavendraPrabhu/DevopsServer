@@ -41,7 +41,7 @@
         <init-param>
             <description>set MockService endpoint used in generated WSDLs and schemas</description>
             <param-name>mockServiceEndpoint</param-name>
-            <param-value>http://45.79.42.37:9002/ProductosServicios</param-value>
+            <param-value>http://45.79.42.37:80/ProductosServicios</param-value>
         </init-param>
     </servlet>
     <servlet-mapping>
