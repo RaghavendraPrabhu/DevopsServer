@@ -97,8 +97,7 @@ pipeline {
                 //([$class: 'SignApksBuilder', androidHome: '/opt/android-sdk', archiveSignedApks: false,apksToSign: 'SSC_BPDContainer/build/outputs/apk/**/*.apk', keyAlias: 'banco popular', keyStoreId: 'bpd-android-key', skipZipalign: true])                
             }
         }
-		
-		
+				
 		stage('Send-APK'){
             steps{
             echo "Sending Android APK To Concern Person......"   
@@ -118,9 +117,7 @@ Jenkins Build Number - $BUILD_NUMBER''', subject: 'Siddhatech Demo Jenkins Build
                 }
             }
         }
-        
-        
-        
+      
     }
 
 }
