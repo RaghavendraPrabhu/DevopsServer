@@ -66,7 +66,7 @@ pipeline {
           steps{
 			echo "Pulling The Updated ANDROID Code From Git Hub Repo master......"
             dir('/var/lib/jenkins/workspace/SiddhatechDevopsDemo/android-app') {
-                //sh 'rm -r /var/lib/jenkins/workspace/SiddhatechDevopsDemo/android-app/SignApksBuilder-out'
+                sh 'rm -r /var/lib/jenkins/workspace/SiddhatechDevopsDemo/android-app/SignApksBuilder-out'
                 git branch: 'master', credentialsId: 'e7fdeab5-08f3-4d82-b72c-b4647a2fb387', url: 'https://github.com/Siddhatech/Android_Demo.git'
               
               }
