@@ -119,8 +119,6 @@ Jenkins Build Number - $BUILD_NUMBER''', subject: 'Siddhatech Demo Jenkins Build
             }
         }
         
-        
-        
     }
 
 }
