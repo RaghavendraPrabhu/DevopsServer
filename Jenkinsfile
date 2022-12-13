@@ -10,8 +10,7 @@ pipeline {
                 }
             }
         }
-        
-        
+               
         stage('Package War'){
 		
           steps{
@@ -22,8 +21,7 @@ pipeline {
               }
             }
         }
-        
-        
+               
         stage('Pull-MAM'){
           steps{
 		  	echo "Pulling The Updated MAM Code From Git Hub Repo dummyMAM......"
