@@ -30723,7 +30723,7 @@ puede usarse para definir un plan de contingencia</xsd:documentation>
                <ultimoCorte>18.82</ultimoCorte>
                <fechaUltimoCorte>04/10/2018</fechaUltimoCorte>
                <balanceTransitos>.00</balanceTransitos>
-               <alias>Demo Account</alias>
+               <alias>Raghavendra1</alias>
                <sePermiteTransaccion>1</sePermiteTransaccion>
                <esProductoAdicional>0</esProductoAdicional>
                <relacion>SOW</relacion>
@@ -30742,7 +30742,7 @@ puede usarse para definir un plan de contingencia</xsd:documentation>
                <ultimoCorte>18.82</ultimoCorte>
                <fechaUltimoCorte>04/10/2018</fechaUltimoCorte>
                <balanceTransitos>.00</balanceTransitos>
-               <alias>Cuenta en USD</alias>
+               <alias>Raghavendra2</alias>
                <sePermiteTransaccion>1</sePermiteTransaccion>
                <esProductoAdicional>0</esProductoAdicional>
                <relacion>SOW</relacion>
@@ -30761,7 +30761,7 @@ puede usarse para definir un plan de contingencia</xsd:documentation>
                <ultimoCorte>4004.85</ultimoCorte>
                <fechaUltimoCorte>04/10/2018</fechaUltimoCorte>
                <balanceTransitos>.00</balanceTransitos>
-               <alias>Ahorros 2</alias>
+               <alias>Raghavendra3</alias>
                <sePermiteTransaccion>1</sePermiteTransaccion>
                <esProductoAdicional>0</esProductoAdicional>
                <relacion>SOW</relacion>

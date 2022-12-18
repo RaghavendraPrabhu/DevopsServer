@@ -26,12 +26,12 @@
         <init-param>
             <description>set listeners directory</description>
             <param-name>listeners</param-name>
-            <param-value></param-value>
+            <param-value>WEB-INF/listeners</param-value>
         </init-param>
         <init-param>
             <description>set actions directory</description>
             <param-name>actions</param-name>
-            <param-value></param-value>
+            <param-value>WEB-INF/actions</param-value>
         </init-param>
         <init-param>
             <description>set scripts directory</description>
@@ -41,7 +41,7 @@
         <init-param>
             <description>set MockService endpoint used in generated WSDLs and schemas</description>
             <param-name>mockServiceEndpoint</param-name>
-            <param-value>http://45.79.42.37:8083/ProductosServicios</param-value>
+            <param-value>http://192.168.99.100:8080/ProductosServicios</param-value>
         </init-param>
     </servlet>
     <servlet-mapping>
